@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/customer" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="95dp">
+
+        <TextView
+            android:id="@+id/tv_commoditydescription"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/commoditydescription"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_commoditydescription"
+            android:layout_marginLeft="10dp"
+            android:text="@string/the_price"
+            android:textColor="#FF6600" />
+
+        <TextView
+            android:id="@+id/customer_chat"
+            android:layout_width="67dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/service"
+            android:gravity="center"
+            android:text="客服聊天"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
